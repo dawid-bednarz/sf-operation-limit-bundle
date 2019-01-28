@@ -7,7 +7,6 @@ declare(strict_types=1);
 
 namespace DawBed\OperationLimitBundle\Service;
 
-use DawBed\OperationLimitBundle\Event\ExceedsLimitEvent;
 use DawBed\OperationLimitBundle\Repository\OperationLimitRepository;
 use DawBed\PHPOperationLimit\Model\AbstractModel;
 use DawBed\PHPOperationLimit\Model\CreateModel;
