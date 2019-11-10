@@ -11,7 +11,7 @@
                 <option name="fixed"/>
             </options>
         </field>
-        <many-to-one field="context" target-entity="DawBed\PHPContext\ContextInterface" fetch="LAZY">
+        <many-to-one field="context" target-entity="DawBed\ContextBundle\Entity\ContextInterface" fetch="LAZY">
             <join-columns>
                 <join-column name="context_id" nullable="false" referenced-column-name="id"/>
             </join-columns>
